@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: monument-extendedNormal;
+  src: url(./Assets/Font/PPMonumentExtended-Regular.otf);
+}
+@font-face {
+  font-family: monument-extendedBlack;
+  src: url(./Assets/Font/PPMonumentExtended-Black.otf);
+}
+body {
+  font-family: monument-extendedNormal, sans-serif;
+  letter-spacing: 1px;
+  background-color: #000;
+  background-attachment: scroll;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body::before {
+  background-image: url(./Assets/background.jpg);
+  content: "";
+  position: fixed;
+  inset: 0;
+  opacity: 0.5;
+}
+.background-page {
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(180deg, black 50%, transparent 100%);
+  mask-image: linear-gradient(180deg, black 50%, transparent 100%);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fff0;
+}
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+.blackFont {
+  font-family: monument-extendedBlack, sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 100px;
+}
+.grid-img-album {
+  display: grid;
+  grid-template-columns: 36px auto;
+  justify-items: center;
+  align-items: end;
+}
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: none;
+    grid-template-rows: 0 auto;
+  }
+  .grid-img-album {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: initial;
+    align-items: initial;
+  }
+}
+.title {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: #fff0;
+}
+.icon {
+  fill: #fff;
+  transition: fill 0.2s ease;
+}
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #fff #0000;
+  animation: l1 1s infinite;
+}
+@keyframes l1 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+iframe {
+  max-width: 900px;
+  max-height: 400px;
+}
