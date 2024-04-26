@@ -1,6 +1,6 @@
 # App álbum
 ###### Preview:
-![image](https://github.com/christiancordeiro/album-amostra-app/assets/116993834/963b7fc5-dab9-4f35-b912-af7857182a0d)
+![image](https://github.com/christiancordeiro/prev-album/assets/116993834/8f1f0981-94c4-412e-b8b1-6ea0539ffc03)
 
 
 ## Visão geral
