@@ -9,7 +9,7 @@
 - Utilizar o menu de navegação para uma experiência intuitiva.
   
 ## 💻 Sobre o projeto
-Este aplicativo é um lançamento de álbum, onde utilizei a API do Spotify para recuperar todas as informações necessárias para o app.
+Este é um aplicativo de prévia para o lançamento de álbuns, onde utilizei a API do Spotify para recuperar todas as informações necessárias para o app.
 
 ## 🚀 Tecnologias
 <ul>
