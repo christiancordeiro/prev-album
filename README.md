@@ -18,4 +18,4 @@ Este aplicativo é um lançamento de álbum, onde utilizei a API do Spotify para
 </ul>
 
 ## Links
-URL do site ao vivo: <a href="https://album-amostra-app.vercel.app" target="_blank">App</a>
+URL do site ao vivo: <a href="https://previa-album.vercel.app" target="_blank">App</a>
