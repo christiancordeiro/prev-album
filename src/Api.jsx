@@ -28,7 +28,7 @@ export const UserStorage = ({ children }) => {
   async function getAlbum(token) {
     const albumId = "2nkto6YNI4rUYTLqEwWJ3o"
     const fields =
-      "artists.name,name,images.url,tracks.items(name,artists(name))"
+      "artists.name,name,images.url,tracks.items(name,artists(name), preview_url, duration_ms)"
 
     const albumParameters = {
       method: "GET",
@@ -47,6 +47,7 @@ export const UserStorage = ({ children }) => {
       )
       if (response.ok) {
         const data = await response.json()
+        console.log(data)
         const { artists, name, images, tracks } = data
         setArtist(artists[0].name.toUpperCase())
         setAlbumName(name.toUpperCase())

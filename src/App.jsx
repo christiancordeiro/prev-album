@@ -1,4 +1,4 @@
-import { useContext, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import Play from "./Assets/Icons/Play.svg?react"
 import Share from "./Assets/Icons/Share.svg?react"
 import Stop from "./Assets/Icons/Stop.svg?react"
@@ -64,7 +64,11 @@ function App() {
                 href="https://open.spotify.com/intl-pt/album/2nkto6YNI4rUYTLqEwWJ3o"
                 target="_blank"
               >
-                <Button text="Full album" icon={<Share />} ativo="borderActive" />
+                <Button
+                  text="Full album"
+                  icon={<Share />}
+                  ativo="borderActive"
+                />
               </a>
             </div>
           </div>

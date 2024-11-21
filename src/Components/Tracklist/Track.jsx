@@ -15,8 +15,8 @@ const Track = ({ currentTrack, handlePlay }) => {
 
   return (
     <>
-      {tracks.map((musica) => (
-        <li key={musica.id} className="flex justify-between items-center py-5">
+      {tracks.map((musica, index) => (
+        <li key={index} className="flex justify-between items-center py-5">
           <div className="flex gap-4 items-center justify-center">
             <p className="">{musica.track_number}</p>
             <button
