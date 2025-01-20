@@ -14,7 +14,7 @@ Este é um aplicativo de prévia para o lançamento de álbuns, onde utilizei a 
 ## 🚀 Tecnologias
 <ul>
     <li><a href="https://create-react-app.dev/" target="_blank">React</a></li>
-  <li>API Spotify</li>
+  <li>API Deezer</li>
 </ul>
 
 ## Links
