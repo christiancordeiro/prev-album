@@ -58,10 +58,10 @@ function App() {
                   )
                 }
                 ativo="colorButton"
-                onClick={() => handlePlay(tracks[0].preview_url)}
+                onClick={() => handlePlay(tracks[0].preview)}
               />
               <a
-                href="https://open.spotify.com/intl-pt/album/2nkto6YNI4rUYTLqEwWJ3o"
+                href="https://www.deezer.com/br/album/44730061"
                 target="_blank"
               >
                 <Button
