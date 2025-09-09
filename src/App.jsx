@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react"
+import { useContext, useState } from "react"
 import Play from "./Assets/Icons/Play.svg?react"
 import Share from "./Assets/Icons/Share.svg?react"
 import Stop from "./Assets/Icons/Stop.svg?react"
